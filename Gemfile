@@ -28,6 +28,12 @@ group :development do
   gem 'spring'
 end
 
+group :test do
+  # Capybara for integration testing
+  gem 'capybara'
+  gem 'capybara-webkit'
+end
+
 group :development, :test do
   gem 'rspec-rails', '~> 3.0.0'
 end
