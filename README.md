@@ -7,10 +7,14 @@ The end goal is for it to serve an awesome version of the dice game [Farkle](htt
 ## Setup
 
 To get this app up and running, there are only a few commands:
-```rake db:create db:migrate```
+```
+rake db:create db:migrate
+```
 
 Then, start the server with:
-```rails server```
+```
+rails server
+```
 
 ## Contributing
 
