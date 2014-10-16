@@ -24,6 +24,9 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Slim for templating, because it's amazing
 gem 'slim'
 
+# Bourbon for some nice mixins
+gem 'bourbon'
+
 group :development do
   # Spring for speedier development
   gem 'spring'
